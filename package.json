@@ -1,10 +1,5 @@
 {
-  "name": "ci-demo",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "jest"
-  },
-  "dependencies": {
-    "jest": "^29.7.0"
-  }
+  "name": "demo",
+  "scripts": { "test": "jest" },
+  "dependencies": { "jest": "^29.0.0" }
 }
