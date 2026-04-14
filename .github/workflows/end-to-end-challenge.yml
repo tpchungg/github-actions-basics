@@ -1,4 +1,4 @@
-name: Node.js CI
+name: ci
 on: [push]
 jobs:
   build:
@@ -12,7 +12,9 @@ jobs:
         uses: actions/checkout@v3
         with:
           node-version: 16
+
       - name: Install Dependencies
         run: npm install
+
       - name: Run tests
         run: npm test
